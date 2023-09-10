@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Orders</title>
+    <link rel="stylesheet" href="static/assets/css/style.css">
+    <link rel="stylesheet" href="static/assets/css/responsive.css">
+</head>
+
+<body class="profile-body">
+    <header class="header">
+        <div class="container">
+            <div class="main-header">
+                <div class="logo">
+                    <a href="#">
+                        <img src="static/images/9.png" alt="logo">
+                    </a>
+                </div>
+                <div class="user">
+                    <a href="#">
+                        <i class='bx bxs-user'></i>
+                        <h6>آوا دهقانی</h6>
+                    </a>
+                </div>
+                <div class="basket">
+                    <a href="#">
+                        <i class='bx bxs-shopping-bag'></i>
+                        <h6>سبد خرید</h6>
+                    </a>
+                </div>
+            </div>
+            <form class="search" action="#">
+                <input type="search">
+                <label>جستوجو کنید</label>
+                <button class="btnsearch" type="submit">
+                    <i class='bx bx-search'></i>
+                </button>
+            </form>
+        </div>
+    </header>
+
+    <main class="profile-main">
+        <div class="container">
+            <div class="main-container">
+                <div class="profile-user">
+                    <div class="profile-user-box">
+                        <i><ion-icon name="person"></ion-icon></i>
+                        <!-- <p>آوا دهقانی</p> -->
+                        <h5>آوا دهقانی</h5>
+                    </div>
+                    <hr>
+                    <h6 id="dashboard"><i><i class='bx bxs-dashboard'></i></i> <span><a href="#">داشبورد</a></span></h6>
+                    <h6 id="order"><i id="order-i"><i class='bx bxs-notepad'></i></i> <span><a href="#">سفارش های من</a></span></h6>
+                    <h6><i><ion-icon name="exit"></ion-icon></i> <span><a href="#">خروج از حساب</a></span></h6>
+                </div>
+                <div class="dashboard">
+                    <h4>سفارش های من</h4>
+                    <hr id="hr">
+                    <table class="table">
+                        <tr>
+                            <th>شماره سفارش</th>
+                            <th>تاریخ</th>
+                            <th>وضعیت</th>
+                            <th>مبلغ نهایی</th>
+                            <th>جزئیات</th>
+                        </tr>
+
+                        <tr>
+                            <td>#284</td>
+                            <td>30 مرداد 1402</td>
+                            <td><button class="basket">سبد خرید</button></td>
+                            <td>10,550,000 <span>تومان</span></td>
+                            <td><button class="see">مشاهده</button></td>
+                        </tr>
+
+                        <tr>
+                            <td>#283</td>
+                            <td>29 مرداد 1402</td>
+                            <td><button class="wiat">در انتظار پرداخت</button></td>
+                            <td>800,000 <span>تومان</span></td>
+                            <td><button class="see">مشاهده</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="navigation">
+        <div class="home">
+            <i><i class='bx bxs-home'></i></i>
+            <h5>خانه</h5>
+        </div>
+        <div class="basket">
+            <i><i class='bx bxs-shopping-bag'></i></i>
+            <h5>سبد خرید</h5>
+        </div>
+        <div class="profile">
+            <i><i class='bx bxs-user'></i></i>
+            <h5>پروفایل</h5>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container-box">
+            <div class="contact-us">
+                <h5 class="contact-us-h5">با ما در ارتباط باشید</h5> <br>
+                <i class="contact-us-icon"><i class='bx bxs-envelope'></i></i>
+                <i class="contact-us-icon"><i class='bx bxl-instagram-alt'></i></i>
+                <i class="contact-us-icon"><i class='bx bxl-telegram'></i></i>
+                <i class="contact-us-icon"><i class='bx bxl-facebook'></i></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</body>
+
+</html>

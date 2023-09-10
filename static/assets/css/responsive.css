@@ -1,0 +1,1255 @@
+@media screen and (max-width: 400px){
+/* login page */
+    .wrapper{
+        width: 90%;
+    }
+    .form-box h2{
+        font-size: 1.5em;
+    }
+    .form-box.register h2{
+        margin-top: 20px;
+    }
+    .remember-forget{
+        flex-direction: column;
+        font-size: .8em;
+    }
+    .input-box{
+        font-size: .9em;
+    }
+    .input-box .icon{
+        font-size: 1em;
+    }
+    .form-box .btn{
+        font-size: 1em;
+    }
+    .form-box .login-register{
+        font-size: .8em;
+    }
+}
+
+
+/* checkout */
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .checkout-main{
+        width: 90%;
+    }
+
+    .header .main-header .logo{
+        width: 60%;
+        height: 60%;
+        margin-top: 5%;
+    }
+
+    .header .main-header .user,
+    .header .main-header .basket{
+        display: none;
+    }
+
+    .header  .search-box .search label{
+        font-size: 10px;
+    }
+
+    .header  .search-box .search .btnsearch .bx.bx-search{
+        font-size: 10.5px;
+    }
+
+    .footer .container-box .contact-us{
+        width: 30%;
+        height: 100%;
+    }
+
+    .footer .contact-us .contact-us-h5{
+        font-size: 10px;
+    }
+
+    .footer .contact-us .contact-us-icon .bx.bxs-envelope,
+    .footer .contact-us .contact-us-icon .bx.bxl-instagram-alt,
+    .footer .contact-us .contact-us-icon .bx.bxl-telegram,
+    .footer .contact-us .contact-us-icon .bx.bxl-facebook{
+        font-size: 12px;
+    }
+
+    .checkout-main .container .main-container{
+        flex-direction: column;
+    }
+
+    .checkout-main .container .main-container .address .address-box-one{
+        width: 100%;
+        height: 100%;
+    }
+
+    .checkout-main .container .main-container .address .address-box-one h4{
+        font-size: 10px;
+    }
+
+    .checkout-main .container .main-container .address .address-box-one .details .detail-one h5,
+    .checkout-main .container .main-container .address .address-box-one .details .detail-one span{
+        font-size: 10px;
+    }
+
+    .checkout-main .container .main-container .address .address-box-one .details .detail-two-btn{
+        width: 100%;
+        height: 20px;
+        margin-right: 15%;
+    }
+
+    .checkout-main .container .main-container .address .address-box-one .details .detail-two-btn button{
+        font-size: 10px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+
+.checkout-main .container .main-container .address .address-box-two{
+    width: 100%;
+    height: 100%;
+}
+
+.checkout-main .container .main-container .address .address-box-two .mahsol,
+.checkout-main .container .main-container .address .address-box-two #h6-one,
+.checkout-main .container .main-container .address .address-box-two #h6-two{
+    font-size: 10px;
+}
+
+.checkout-main .container .main-container .address .address-box-two #btn-one,
+.checkout-main .container .main-container .address .address-box-two #btn-two{
+    width: 30%;
+    height: 40%;
+    font-size: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.checkout-main .container .main-container .address .address-box-two #truck{
+    font-size: 10px;
+    margin-bottom: 10%;
+}
+
+.checkout-main .container .main-container .address .address-box-two .ul-box{
+    height: 100%;
+}
+
+
+.checkout-main .container .main-container .address .address-box-two .change-color,
+.checkout-main .container .main-container .address .address-box-two .pardakht p {
+    font-size: 7px;
+}
+
+.checkout-main .container .main-container .address .address-box-two .pardakht h4,
+.checkout-main .container .main-container .address .address-box-two .change-color h4{
+    font-size: 8.5px;
+}
+
+.checkout-main .container .main-container .address .address-box-two .pardakht input{
+    width: 10px;
+}
+
+.checkout-main .container .main-container .address .address-box-two .pardakht{
+    margin-bottom: 5%;
+}
+
+
+.checkout-main .container .main-container .address .address-box-three{
+    width: 100%;
+    height: 100%;
+}
+
+.checkout-main .container .main-container .address .address-box-three h4,
+.checkout-main .container .main-container .address .address-box-three h5,
+.checkout-main .container .main-container .address .address-box-three #h5{
+    font-size: 10px;
+}
+
+.checkout-main .container .main-container .address .address-box-three h5{
+    margin-bottom: 5%;
+}
+
+.checkout-main .container .main-container .costs{
+    width: 100%;
+    height: 100%;
+    margin-right: 0;
+    margin-bottom: 10%;
+}
+
+.checkout-main .container .main-container .costs .cost-box .li,
+.checkout-main .container .main-container .costs .cost-box #change_color,
+.checkout-main .container .main-container .costs .cost-box2 .li,
+.checkout-main .container .main-container .costs .cost-box2 #change_color{
+    font-size: 10px;
+}
+
+.checkout-main .container .main-container .costs .btn{
+    width: 50%;
+    height: 100%;
+}
+
+.checkout-main .container .main-container .costs .btn button{
+    font-size: 8.5px;
+}
+
+.Checkout-body .footer{
+    margin-bottom: 15%;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .checkout-main{
+        width: 90%;
+    }
+
+    .header .main-header .logo{
+        width: 50%;
+    }
+
+    .header .main-header .user,
+    .header .main-header .basket{
+        display: none;
+    }
+
+    .header  .search-box .search label,
+    .header  .search-box .search .btnsearch .bx.bx-search{
+        font-size: 14px;
+    }
+
+    .checkout-main .container .main-container{
+        flex-direction: column;
+    }
+
+    .checkout-main .container .main-container .address .address-box-one{
+        width: 100%;
+        height: 100%;
+    }
+
+    .checkout-main .container .main-container .address .address-box-one h4{
+        font-size: 13px;
+    }
+
+    .checkout-main .container .main-container .address .address-box-one .details .detail-one h5,
+    .checkout-main .container .main-container .address .address-box-one .details .detail-one span{
+        font-size: 11.5px;
+    }
+
+    .checkout-main .container .main-container .address .address-box-one .details .detail-two-btn{
+        width: 100%;
+        height: 27px;
+        margin-right: 15%;
+    }
+
+    .checkout-main .container .main-container .address .address-box-one .details .detail-two-btn button{
+        font-size: 11.5px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+
+.checkout-main .container .main-container .address .address-box-two{
+    width: 100%;
+    height: 100%;
+}
+
+.checkout-main .container .main-container .address .address-box-two .mahsol,
+.checkout-main .container .main-container .address .address-box-two #h6-one,
+.checkout-main .container .main-container .address .address-box-two #h6-two{
+    font-size: 11px;
+}
+
+.checkout-main .container .main-container .address .address-box-two #btn-one,
+.checkout-main .container .main-container .address .address-box-two #btn-two{
+    width: 30%;
+    height: 40%;
+    font-size: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.checkout-main .container .main-container .address .address-box-two #truck{
+    font-size: 12px;
+    margin-bottom: 5%;
+}
+
+.checkout-main .container .main-container .address .address-box-two .ul-box{
+    height: 100%;
+}
+
+
+.checkout-main .container .main-container .address .address-box-two .change-color,
+.checkout-main .container .main-container .address .address-box-two .pardakht p {
+    font-size: 8px;
+}
+
+.checkout-main .container .main-container .address .address-box-two .pardakht h4,
+.checkout-main .container .main-container .address .address-box-two .change-color h4{
+    font-size: 10px;
+}
+
+.checkout-main .container .main-container .address .address-box-two .pardakht input{
+    width: 10px;
+}
+
+.checkout-main .container .main-container .address .address-box-two .pardakht{
+    margin-bottom: 5%;
+}
+
+.checkout-main .container .main-container .address .address-box-three{
+    width: 100%;
+    height: 100%;
+}
+
+.checkout-main .container .main-container .address .address-box-three h4,
+.checkout-main .container .main-container .address .address-box-three h5,
+.checkout-main .container .main-container .address .address-box-three #h5{
+    font-size: 12px;
+}
+
+.checkout-main .container .main-container .address .address-box-three h5:last-child{
+    margin-bottom: 10%;
+}
+
+.checkout-main .container .main-container .costs{
+    width: 65%;
+    height: 100%;
+    margin-right: 0;
+    margin-bottom: 10%;
+}
+
+.checkout-main .container .main-container .costs .cost-box .li,
+.checkout-main .container .main-container .costs .cost-box #change_color,
+.checkout-main .container .main-container .costs .cost-box2 .li,
+.checkout-main .container .main-container .costs .cost-box2 #change_color{
+    font-size: 12px;
+}
+
+.checkout-main .container .main-container .costs .btn{
+    width: 50%;
+    height: 25px;
+    margin-top: 70%;
+}
+
+.checkout-main .container .main-container .costs .btn button{
+    font-size: 9px;
+}
+
+.Checkout-body .footer{
+    margin-bottom: 10%;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .checkout-main .container .main-container .address .address-box-one{
+        width: 100%;
+    }
+
+    .checkout-main .container .main-container .address .address-box-one h4{
+        font-size: 14px;
+    }
+
+    .checkout-main .container .main-container .address .address-box-one .details .detail-one h5,
+    .checkout-main .container .main-container .address .address-box-one .details .detail-one span{
+        font-size: 12px;
+    }
+
+    .checkout-main .container .main-container .address .address-box-one .details .detail-two-btn{
+        width: 100%;
+        height: 27px;
+        margin-right: 15%;
+    }
+
+    .checkout-main .container .main-container .address .address-box-one .details .detail-two-btn button{
+        font-size: 12px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .checkout-main .container .main-container .address .address-box-two{
+        width: 100%;
+    }
+    
+    .checkout-main .container .main-container .address .address-box-two .mahsol,
+    .checkout-main .container .main-container .address .address-box-two #h6-one,
+    .checkout-main .container .main-container .address .address-box-two #h6-two{
+        font-size: 12px;
+    }
+    
+    .checkout-main .container .main-container .address .address-box-two #btn-one,
+    .checkout-main .container .main-container .address .address-box-two #btn-two{
+        width: 30%;
+        height: 40%;
+        font-size: 10px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    .checkout-main .container .main-container .address .address-box-two #truck{
+        font-size: 13px;
+        margin-bottom: 5%;
+    }
+
+    .checkout-main .container .main-container .address .address-box-two .change-color,
+    .checkout-main .container .main-container .address .address-box-two .pardakht p {
+        font-size: 9.5px;
+    }
+    
+    .checkout-main .container .main-container .address .address-box-two .pardakht h4,
+    .checkout-main .container .main-container .address .address-box-two .change-color h4{
+        font-size: 12px;
+    }
+    
+    .checkout-main .container .main-container .address .address-box-two .pardakht input{
+        width: 13px;
+    }
+
+    .checkout-main .container .main-container .address .address-box-three{
+        width: 100%;
+        height: 130px;
+    }
+    
+    .checkout-main .container .main-container .address .address-box-three h4,
+    .checkout-main .container .main-container .address .address-box-three h5,
+    .checkout-main .container .main-container .address .address-box-three #h5,
+    .checkout-main .container .main-container .address .address-box-three span{
+        font-size: 12px;
+    }
+    
+    .checkout-main .container .main-container .address .address-box-three h5:last-child{
+        margin-bottom: 10%;
+    }
+
+    .checkout-main .container .main-container .costs{
+        width: 80%;
+        height: 100%;
+    }
+    
+    .checkout-main .container .main-container .costs .cost-box .li,
+    .checkout-main .container .main-container .costs .cost-box #change_color,
+    .checkout-main .container .main-container .costs .cost-box2 .li,
+    .checkout-main .container .main-container .costs .cost-box2 #change_color{
+        font-size: 12px;
+    }
+    
+    .checkout-main .container .main-container .costs .btn{
+        width: 60%;
+        height: 30px;
+        margin-top: 70%;
+    }
+    
+    .checkout-main .container .main-container .costs .btn button{
+        font-size: 10px;
+    }
+
+    .Checkout-body .footer{
+        margin-top: 5%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    .checkout-main .container .main-container .costs{
+        width: 80%;
+        height: 100%;
+    }
+    
+    .checkout-main .container .main-container .costs .cost-box .li,
+    .checkout-main .container .main-container .costs .cost-box #change_color,
+    .checkout-main .container .main-container .costs .cost-box2 .li,
+    .checkout-main .container .main-container .costs .cost-box2 #change_color{
+        font-size: 13px;
+    }
+    
+    .checkout-main .container .main-container .costs .btn{
+        width: 60%;
+        height: 30px;
+        margin-top: 70%;
+    }
+    
+    .checkout-main .container .main-container .costs .btn button{
+        font-size: 12px;
+    }
+
+}
+
+
+
+/* profile */
+    @media screen and (min-width: 320px) and (max-width: 480px){
+        .profile-main .main-container{
+            flex-direction: column;
+            height: 100%;
+            align-items: center;
+        }
+
+        .profile-body .header .main-header .logo{
+            width: 60%;
+        }
+
+        .profile-body .header .main-header .user,
+        .profile-body .header .main-header .basket{
+            display: none;
+        }
+
+        .profile-body .header .search label,
+        .profile-body .header .search .btnsearch .bx.bx-search{
+            font-size: 13px;
+        }
+
+        .profile-main .main-container .profile-user{
+            width: 70%;
+            height: 65%;
+        }
+
+        .profile-main .main-container .profile-user .profile-user-box h5{
+            font-size: 12.5px;
+        }
+
+        .profile-main .main-container .profile-user .profile-user-box i{
+            font-size: 20px;
+        }
+
+        .profile-main .main-container .profile-user .change-color{
+            margin-top: 3%;
+        }
+    
+        .profile-main .main-container .profile-user h6{
+            font-size: 10px;
+            margin-top: 0;
+        }
+    
+        .profile-main .main-container .profile-user h6:last-child{
+            margin-bottom: 5%;
+        }
+
+        .profile-main .main-container .dashboard{
+            width: 100%;
+            height: 30%;
+            margin-right: 0;
+            margin-top: 10%;
+        }
+
+        .profile-main .main-container .dashboard h4{
+            font-size: 12.5px;
+        }
+
+        .profile-main .main-container .dashboard .dashboard-box-one #h6 span, 
+        .profile-main .main-container .dashboard .dashboard-box-one #h6 i,
+        .profile-main .main-container .dashboard .dashboard-box-one .name h6 span,
+        .profile-main .main-container .dashboard .dashboard-box-one .name h6 i,
+        .profile-main .main-container .dashboard .dashboard-box-one .edit,
+        .profile-main .main-container .dashboard .dashboard-box-two h6 span,
+        .profile-main .main-container .dashboard .dashboard-box-two .bx.bxs-envelope.bx-tada,
+        .profile-main .main-container .dashboard .dashboard-box-two .edit,
+        .profile-main .main-container .dashboard .dashboard-box-three h6 span,
+        .profile-main .main-container .dashboard .dashboard-box-three .bx.bxs-home,
+        .profile-main .main-container .dashboard .dashboard-box-three .edit{
+            font-size: 9.7px;
+        }
+
+        .profile-body .footer{
+            margin-top: 18%;
+        }
+    }
+
+
+    @media screen and (min-width: 480px) and (max-width: 768px){
+        .profile-body .header .container{
+            width: 90%;
+        }
+    
+        .profile-main .main-container{
+            width: 90%;
+            flex-direction: column;
+            height: 100%;
+            align-items: center;
+        }
+
+        .profile-body .header .main-header .user,
+        .profile-body .header .main-header .basket{
+            display: none;
+        }
+
+        .profile-body .header .search label,
+        .profile-body .header .search .btnsearch .bx.bx-search{
+            font-size: 14px;
+        }
+
+        .profile-body .header .main-header .logo{
+            width: 40%;
+        }
+
+
+        .profile-main .main-container .profile-user{
+            width: 50%;
+            height: 70%;
+        }
+
+        .profile-main .main-container .profile-user .profile-user-box h5{
+            font-size: 12.5px;
+        }
+
+        .profile-main .main-container .profile-user .profile-user-box i{
+            font-size: 20px;
+        }
+
+        .profile-main .main-container .profile-user .change-color{
+            margin-top: 3%;
+        }
+    
+        .profile-main .main-container .profile-user h6{
+            font-size: 10px;
+            margin-top: 0;
+        }
+    
+        .profile-main .main-container .profile-user h6:last-child{
+            margin-bottom: 5%;
+        }
+
+        .profile-main .main-container .dashboard{
+            width: 100%;
+            height: 30%;
+            margin-right: 0;
+            margin-top: 10%;
+        }
+
+        .profile-main .main-container .dashboard h4{
+            font-size: 15px;
+        }
+    
+        .profile-main .main-container .dashboard .dashboard-box-one #h6 span, 
+        .profile-main .main-container .dashboard .dashboard-box-one #h6 i,
+        .profile-main .main-container .dashboard .dashboard-box-one .name h6 span,
+        .profile-main .main-container .dashboard .dashboard-box-one .name h6 i,
+        .profile-main .main-container .dashboard .dashboard-box-one .edit,
+        .profile-main .main-container .dashboard .dashboard-box-two h6 span,
+        .profile-main .main-container .dashboard .dashboard-box-two .bx.bxs-envelope.bx-tada,
+        .profile-main .main-container .dashboard .dashboard-box-two .edit,
+        .profile-main .main-container .dashboard .dashboard-box-three h6 span,
+        .profile-main .main-container .dashboard .dashboard-box-three .bx.bxs-home,
+        .profile-main .main-container .dashboard .dashboard-box-three .edit{
+            font-size: 12px;
+        }
+
+        .profile-body .footer{
+            margin-top: 7%;
+        }
+    }
+
+
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+        .profile-main .main-container .profile-user{
+            width: 50%;
+            height: 50%;
+        }
+
+        .profile-main .main-container .dashboard{
+            width: 100%;
+            height: 40%;
+        }
+
+        .profile-main .main-container .dashboard .dashboard-box-one #h6 span, 
+        .profile-main .main-container .dashboard .dashboard-box-one #h6 i,
+        .profile-main .main-container .dashboard .dashboard-box-one .name h6 span,
+        .profile-main .main-container .dashboard .dashboard-box-one .name h6 i,
+        .profile-main .main-container .dashboard .dashboard-box-one .edit,
+        .profile-main .main-container .dashboard .dashboard-box-two h6 span,
+        .profile-main .main-container .dashboard .dashboard-box-two .bx.bxs-envelope.bx-tada,
+        .profile-main .main-container .dashboard .dashboard-box-two .edit,
+        .profile-main .main-container .dashboard .dashboard-box-three h6 span,
+        .profile-main .main-container .dashboard .dashboard-box-three .bx.bxs-home,
+        .profile-main .main-container .dashboard .dashboard-box-three .edit{
+            font-size: 13px;
+        }
+    }
+
+
+
+
+/* my-orders */
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+    .profile-main .main-container .dashboard .table th,
+    .profile-main .main-container .dashboard .table td{
+        font-size: 8px;
+    }
+
+    .profile-main .main-container .dashboard .table .basket{
+        width: 80%;
+        font-size: 7.5px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+
+    .profile-main .main-container .dashboard .table .wiat{
+    width: 100%;
+    font-size: 7px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+    .profile-main .main-container .dashboard .table .see{
+        font-size: 8px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        height: 100%;
+        width: 80%;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .profile-main .main-container .dashboard .table th,
+    .profile-main .main-container .dashboard .table td{
+        font-size: 10px;
+    }
+
+    .profile-main .main-container .dashboard .table .basket{
+        width: 90%;
+        font-size: 10px;
+    }
+
+    
+    .profile-main .main-container .dashboard .table .wiat{
+        width: 100%;
+        font-size: 8px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+}
+
+    .profile-main .main-container .dashboard .table .see{
+        width: 50%;
+        font-size: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        height: 100%;
+        width: 75%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .profile-main .main-container .dashboard .table th,
+    .profile-main .main-container .dashboard .table td{
+        font-size: 11px;
+    }
+
+    .profile-main .main-container .dashboard .table .basket{
+        width: 90%;
+        font-size: 10px;
+    }
+
+    .profile-main .main-container .dashboard .table .wiat{
+        width: 100%;
+        font-size: 9px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+}
+
+    .profile-main .main-container .dashboard .table .see{
+        width: 80%;
+        font-size: 10px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+}
+}
+
+
+/* products */
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .products-body .header .user,
+    .products-body .header .basket{
+        display: none;
+    }
+
+    .products-main .main-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .products-main .main-container .product-1 .btn{
+        margin-bottom: 50%;
+    }
+
+    .products-main .main-container .product-2 .btn{
+        margin-bottom: 50%;
+    }
+
+    .products-body .footer{
+        margin-bottom: 15%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .products-body .header .user,
+    .products-body .header .basket{
+        display: none;
+    }
+
+    .products-main .main-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .products-main .main-container .product-1 .btn{
+        margin-bottom: 50%;
+    }
+
+    .products-main .main-container .product-2 .btn{
+        margin-bottom: 50%;
+    }
+
+    .products-body .footer{
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .products-main .main-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .products-main .main-container .product-1 .btn{
+        margin-bottom: 40%;
+    }
+
+    .products-main .main-container .product-2 .btn{
+        margin-bottom: 40%;
+    }
+
+    .products-main .main-container .product-6 .btn{
+        padding-top: 23%;
+    }
+
+    .navigation{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    .products-main .main-container .product-6 .btn{
+        padding-top: 23%;
+    }
+
+    .navigation{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .navigation{
+        display: none;
+    }
+}
+
+
+/* card */
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+    .main .container{
+        width: 85%;
+    }
+
+    .shoppingbody .header .main-header .user,
+    .shoppingbody .header .main-header .basket{
+        display: none;
+    }
+
+
+    .shoppingbody .container .search label,
+    .shoppingbody .container .search .btnsearch .bx.bx-search{
+        font-size: 10px;
+    }
+
+
+    .main .container .koli .company-name {
+        height: 100px;
+    }
+    
+    .main .container .koli .company-name .logo img{
+        width: 50px;
+        height: 50px;
+        margin-right: 20%;
+    }
+    
+    .main .container .koli .company-name .basket h5,
+    .main .container .koli .company-name .basket i,
+    .main .container .koli .company-name .basket .fa.fa-shopping-cart{
+        font-size: 8px;
+    }
+
+    .main .container .koli .company-name .basket #wallet,
+    .main .container .koli .company-name .basket .fa.fa-shopping-cart{
+        margin-bottom: 2%;
+    }
+    
+    .main .container .koli .company-name .basket hr{
+        width: 100px;
+    }
+    
+    .main .container .koli .products-cost{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .main .container .koli .products-cost .products .product-one{
+        width: 100%;
+        height: 100%;
+    }
+
+    .main .container .koli .products-cost .products .product-one .product-one-img{
+        width: 40%;
+        height: 60%;
+    }
+
+    .main .container .koli .products-cost .products .product-one .gheymat br{
+        display: none;
+    }
+
+    .main .container .koli .products-cost .products .product-one .gheymat h4,
+    .main .container .koli .products-cost .products .product-one .gheymat strike,
+    .main .container .koli .products-cost .products .product-one .gheymat span,
+    .main .container .koli .products-cost .products .product-one .gheymat p{
+        font-size: 10px;
+    }
+
+    .main .container .koli .products-cost .products .product-one .gheymat h4{
+        margin-bottom: 3%;
+    }
+
+    .main .container .koli .products-cost .products .product-two-img{
+        width: 30%;
+    }
+
+    .main .container .koli .products-cost .products .product-two .gheymat h4{
+        font-size: 10px;
+        margin-bottom: 3%;
+    }
+
+    .main .container .koli .products-cost .products .product-two .gheymat p, span{
+        font-size: 10px;
+    }
+
+    .main .container .koli .products-cost .products .product-two .gheymat br{
+        display: none;
+    }
+
+    .costs{
+        width: 80%;
+        height: 155px;
+    }
+    
+
+    .costs .cost-box .li,
+    .costs .cost-box #change_color{
+        font-size: 10px;
+    }
+
+    .costs .cost-box2 .li,
+    .costs .cost-box2 #change_color{
+        font-size: 10px;
+    }
+
+    .shoppingbody .costs .btn{
+        width: 60%;
+        height: 30px;
+        margin-top: 120px;
+}
+.shoppingbody .costs .btn button{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 10px;
+}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .shoppingbody .header .main-header .user,
+    .shoppingbody .header .main-header .basket{
+        display: none;
+    }
+
+    .main .container{
+        width: 75%;
+    }
+
+    .shoppingbody .container .search label,
+    .shoppingbody .container .search .btnsearch .bx.bx-search{
+        font-size: 13px;
+    }
+
+    .shoppingbody .header .logo{
+        width: 80px;
+        height: 80px;
+        
+    }
+
+    .main .container .koli .company-name {
+        height: 110px;
+    }
+    
+    .main .container .koli .company-name .logo img{
+        width: 75px;
+        height: 75px;
+        margin-right: 10%;
+    }
+    
+    .main .container .koli .company-name .basket h5,
+    .main .container .koli .company-name .basket i,
+    .main .container .koli .company-name .basket .fa.fa-shopping-cart{
+        font-size: 10px;
+    }
+
+    .main .container .koli .company-name .basket #wallet,
+    .main .container .koli .company-name .basket .fa.fa-shopping-cart{
+        margin-bottom: 1%;
+    }
+    
+    .main .container .koli .company-name .basket hr{
+        width: 110px;
+    }
+    
+    .main .container .koli .products-cost{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .main .container .koli .products-cost .products .product-one{
+        width: 100%;
+        height: 100%;
+    }
+
+    .main .container .koli .products-cost .products .product-one .product-one-img{
+        width: 40%;
+        height: 60%;
+    }
+
+    .main .container .koli .products-cost .products .product-one .gheymat br{
+        display: none;
+    }
+
+    .main .container .koli .products-cost .products .product-one .gheymat h4,
+    .main .container .koli .products-cost .products .product-one .gheymat strike,
+    .main .container .koli .products-cost .products .product-one .gheymat span,
+    .main .container .koli .products-cost .products .product-one .gheymat p{
+        font-size: 11px;
+    }
+
+    .main .container .koli .products-cost .products .product-one .gheymat h4{
+        margin-bottom: 3%;
+    }
+
+    .main .container .koli .products-cost .products .product-two-img{
+        width: 25%;
+    }
+
+    .main .container .koli .products-cost .products .product-two .gheymat h4{
+        font-size: 10px;
+        margin-bottom: 3%;
+    }
+
+    .main .container .koli .products-cost .products .product-two .gheymat p, span{
+        font-size: 10px;
+    }
+
+    .main .container .koli .products-cost .products .product-two .gheymat br{
+        display: none;
+    }
+
+    .costs{
+        width: 70%;
+        height: 190px;
+    }
+    
+
+    .costs .cost-box .li,
+    .costs .cost-box #change_color{
+        font-size: 11px;
+    }
+
+    .costs .cost-box2 .li,
+    .costs .cost-box2 #change_color{
+        font-size: 11px;
+    }
+
+    .shoppingbody .costs .btn{
+        width: 60%;
+        height: 30px;
+        margin-top: 150px;
+}
+.shoppingbody .costs .btn button{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 10px;
+}
+
+.shoppingbody .footer{
+    margin-top: 20%;
+}
+
+.shoppingbody .footer{
+    margin-bottom: 10%;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .main .container{
+        width: 75%;
+    }
+
+    .shoppingbody .header .basket h6{
+        margin-right: 5%;
+    }
+
+    .shoppingbody .container .search label,
+    .shoppingbody .container .search .btnsearch .bx.bx-search{
+        font-size: 14.5px;
+    }
+
+    .shoppingbody .header .logo{
+        width: 90px;
+        height: 90px;
+    }
+
+    .main .container .koli .company-name .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .main .container .koli .company-name .basket h5,
+    .main .container .koli .company-name .basket i,
+    .main .container .koli .company-name .basket .fa.fa-shopping-cart{
+        font-size: 13.5px;
+    }
+
+    .main .container .koli .company-name .basket #wallet,
+    .main .container .koli .company-name .basket .fa.fa-shopping-cart{
+        margin-bottom: 1%;
+    }
+    
+    .main .container .koli .company-name .basket hr{
+        width: 300px;
+    }
+
+    .main .container .koli .products-cost .products .product-one{
+        width: 100%;
+    }
+
+    .main .container .koli .products-cost .products .product-one .product-one-img{
+        width: 50%;
+        height: 80%;
+    }
+
+    .main .container .koli .products-cost .products .product-one .gheymat h4,
+    .main .container .koli .products-cost .products .product-one .gheymat strike,
+    .main .container .koli .products-cost .products .product-one .gheymat span,
+    .main .container .koli .products-cost .products .product-one .gheymat p{
+        font-size: 13.5px;
+    }
+
+    .main .container .koli .products-cost .products .product-one .gheymat h4{
+        margin-bottom: 3%;
+    }
+
+    .main .container .koli .products-cost .products .product-two-img{
+        width: 35%;
+    }
+
+    .main .container .koli .products-cost .products .product-two .gheymat h4{
+        font-size: 10px;
+        margin-bottom: 3%;
+    }
+
+    .main .container .koli .products-cost .products .product-two .gheymat p, span{
+        font-size: 13.5px;
+    }
+
+    .costs{
+        width: 70%;
+        height: 200px;
+    }
+
+    .costs .cost-box .li,
+    .costs .cost-box #change_color{
+        font-size: 12px;
+    }
+
+    .costs .cost-box2 .li,
+    .costs .cost-box2 #change_color{
+        font-size: 11.5px;
+    }
+
+    .shoppingbody .costs .btn{
+        width: 60%;
+        height: 30px;
+        margin-top: 150px;
+}
+.shoppingbody .costs .btn button{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 10px;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    .shoppingbody .container{
+        width: 80%;
+    }
+
+    .shoppingbody .header .basket h6{
+        margin-right: 5%;
+    }
+
+    .costs{
+        width: 55%;
+        height: 85%;
+    }
+
+    .shoppingbody .costs .btn{
+        margin-top: 160px;
+}
+}

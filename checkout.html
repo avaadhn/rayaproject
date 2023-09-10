@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="static/assets/css/style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="static/assets/css/responsive.css">
+</head>
+
+<body class="Checkout-body">
+    <header class="header">
+        <div class="container">
+            <div class="main-header">
+                <div class="logo">
+                    <a href="#">
+                        <img src="static/images/9.png" alt="logo">
+                    </a>
+                </div>
+                <div class="user">
+                    <a href="#">
+                        <i class='bx bxs-user'></i>
+                        <h6>آوا دهقانی</h6>
+                    </a>
+                </div>
+                <div class="basket">
+                    <a href="#">
+                        <i class='bx bxs-shopping-bag'></i>
+                        <h6>سبد خرید</h6>
+                    </a>
+                </div>
+            </div>
+            <div class="search-box">
+                <form class="search" action="#">
+                    <input type="search">
+                    <label>جستوجو کنید</label>
+                    <button class="btnsearch" type="submit">
+                        <i class='bx bx-search'></i>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="checkout-main">
+        <div class="container">
+            <div class="main-container">
+                <div class="address">
+                    <div class="address-box-one">
+                        <h4>آدرس گیرنده</h4>
+                        <div class="details">
+                            <div class="detail-one">
+                                <h5><i><ion-icon name="location"></ion-icon></i> آدرس: <span>رامسر- خیابان طالقانی کوچه
+                                        غربی1</span></h5>
+                                <h5><i><ion-icon name="call"></ion-icon></i> شماره تماس: <span>09307333179</span></h5>
+                                <h5><i><ion-icon name="person"></ion-icon></i> نام گیرنده: <span>آوا دهقانی</span></h5>
+                            </div>
+                            <div class="detail-two-btn">
+                                <button type="submit">ویرایش</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="address-box-two">
+                        <div class="mahsol">
+                            <h4><i><i class='bx bxs-shopping-bag'></i></i> محصولات شما</h4>
+                        </div>
+
+                        <div class="detail-one">
+                            <h6 id="h6-one">کاپشن کوهنوردی طرح نورث فیس </h6>
+                            <button id="btn-one">1</button>
+                            <h6 id="h6-two">کفش کوهنوردی هاناگال مدل اورست </h6>
+                            <button id="btn-two">1</button>
+                        </div>
+                        <h4 id="truck"><i><i class='bx bxs-truck'></i></i> نوع پرداخت</h4>
+                        
+                            
+                            <div class="pardakht">
+                                <h4 class="change-color"><input type="radio" disabled> پرداخت اینترنتی (به زودی)</h4>
+                                <p class="change-color">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                                    با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                                    سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
+                                    هدف بهبود ابزارهای کاربردی می باشد.</p>
+                            </div>
+                            
+                            <div class="pardakht">
+                                <h4><input type="radio"  name="pay"> پرداخت حضوری (درب فروشگاه)</h4>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+                                    فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                            </div>
+                            
+                            <div class="pardakht">
+                                <h4><input type="radio" name="pay"> پرداخت حضوری (درب منزل)</h4>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک
+                                    است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+                                    فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                            </div>
+
+                    </div>
+                    <div class="address-box-three">
+                        <h4>آدرس فروشگاه</h4>
+                        <h5 id="h5"><i><ion-icon name="location"></ion-icon></i> آدرس: <span>رامسر بازارچه اقتصاد (ماهی
+                                فروشان
+                                سابق) فروشگاه 1024 - خانم رمضان زاده</span></h5>
+                        <h5><i><ion-icon name="call"></ion-icon></i> شماره تماس: <span>0911735018</span></h5>
+                        <h5><i><ion-icon name="home"></ion-icon></i> نام فروشگاه: <span>فروشگاه 1024</span></h5>
+                    </div>
+                </div>
+                <div class="costs">
+                    <div class="cost-box">
+                        <ul>
+                            <li class="li">تعداد کالا</li>
+                            <li class="li">مبلغ کالا</li>
+                            <li class="li">جمع کل تخفیف</li>
+                            <li id="change_color">قابل پرداخت</li>
+                        </ul>
+                    </div>
+                    <div class="btn">
+                        <button type="submit">ثبت نهایی</button>
+                    </div>
+                    <div class="cost-box2">
+                        <ul>
+                            <li class="li">2</li>
+                            <li class="li">6,400,000 تومان</li>
+                            <li class="li">500,000 تومان</li>
+                            <li id="change_color">5,900,000 تومان</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="navigation">
+        <div class="home">
+            <i><i class='bx bxs-home'></i></i>
+            <h5>خانه</h5>
+        </div>
+        <div class="basket">
+            <i><i class='bx bxs-shopping-bag'></i></i>
+            <h5>سبد خرید</h5>
+        </div>
+        <div class="profile">
+            <i><i class='bx bxs-user'></i></i>
+            <h5>پروفایل</h5>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container-box">
+            <div class="contact-us">
+                <h5 class="contact-us-h5">با ما در ارتباط باشید</h5> <br>
+                <i class="contact-us-icon"><i class='bx bxs-envelope'></i></i>
+                <i class="contact-us-icon"><i class='bx bxl-instagram-alt'></i></i>
+                <i class="contact-us-icon"><i class='bx bxl-telegram'></i></i>
+                <i class="contact-us-icon"><i class='bx bxl-facebook'></i></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</body>
+
+</html>

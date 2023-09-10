@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register</title>
+    <link rel="stylesheet" href="static/assets/css/style.css">
+    <link rel="stylesheet" href="static/assets/css/responsive.css">
+</head>
+<body class="loginbody">
+    <!-- start login -->
+    <div class="wrapper">
+        <div class="form-box login">
+            <img class="logo" src="static/images/9.5.png" alt="logo">
+            <h2>ورود</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required >
+                    <label>نام کاربری</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required >
+                    <label>رمز</label>
+                </div>
+                <div class="remember-forget">
+                    <label><input class="check" type="checkbox">مرا به خاطر بسپار</label>
+                    <a href="#">رمز خود را فراموش کرده اید؟</a>
+                </div>
+                <button type="submit" class="btn">ثبت</button> 
+                <div class="login-register">
+                    <p>ثبت نام نکرده اید؟<a href="#" class="register-link">ثبت نام</a></p>
+                </div>
+            </form>
+        </div>
+        <!-- end login -->
+
+        <!-- start registeration -->
+        <div class="form-box register">
+            <img class="logo" src="static/images/9.5.png" alt="logo">
+            <h2>ثبت نام</h2> <br> <br> 
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required >
+                    <label>نام کاربری</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required >
+                    <label>رمز</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required >
+                    <label>تکرار رمز</label>
+                </div>
+                <div class="remember-forget">
+                    <label><input type="checkbox">قوانین و مقررات را مطالعه کردم و با آنها موافقم</label>
+                </div>
+                <button type="submit" class="btn">ثبت</button> 
+                <div class="login-register">
+                    <p>حساب قبلی دارید؟<a href="#" class="login-link">ورود</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="static/assets/js/login.js"></script>
+</body>
+</html>
